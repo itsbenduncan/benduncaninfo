@@ -106,6 +106,22 @@ main {
     margin-left: 0px;
 }
 
+.blog {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+
+    height: 250px;
+    text-align: center;
+    margin-left: 0px;
+}
+
+.blog-p {
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    width: 85vw;
+    font-size: 2em;
+}
+
 .background-p {
     font-family: 'Raleway', sans-serif;
     text-align: justify;
