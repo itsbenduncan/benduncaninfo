@@ -49,8 +49,8 @@ span.wave {
 }
 
 .profilephoto {
-    height: 250px;
-    width: 250px;
+    max-width: 250px;
+    height: auto;
     border: 2px solid black;
 }
 
