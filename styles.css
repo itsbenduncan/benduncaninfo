@@ -51,6 +51,7 @@ span.wave {
 .profilephoto {
     height: 250px;
     width: 250px;
+    border: 2px solid black;
 }
 
 .title {
