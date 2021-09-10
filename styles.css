@@ -48,12 +48,6 @@ span.wave {
     100% { transform: rotate(  0.0deg) }
 }
 
-.profilephoto {
-    max-width: 250px;
-    height: auto;
-    border: 2px solid black;
-}
-
 .title {
     font-family: 'Raleway', sans-serif;
     font-size: 3em;
