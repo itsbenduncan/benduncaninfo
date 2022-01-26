@@ -1,247 +1,167 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;900&family=Raleway:wght@100;300;400;500;700;900&display=swap');
 
-/* 
-font-family: 'Nunito', sans-serif;
-font-family: 'Raleway', sans-serif; 
-*/
 @media only screen and (min-width: 600px) {
-body, html {
-    background-color: rgb(250,250,250);
-    overflow: scroll;
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-    font-family: 'Nunito', sans-serif;
-}
-
-/* .dark-mode {
-    background-color: black;
-    background: linear-gradient(160deg, rgba(0,0,0,1) 0%, rgba(20,20,20,1) 100%);
-    color: whitesmoke;
-} */
-
-.welcome {
-    font-family: 'Nunito', sans-serif;
-    font-size: 5em;
-
-    width: 95vw;
-    margin-bottom: 0px;
-}
-
-span.wave {
-    animation-name: wave-animation;    /* Refers to the name of your @keyframes element below */
-    animation-duration: 2.5s;          /* Change to speed up or slow down */
-    animation-iteration-count: infinite;    /* Never stop waving :) */
-    transform-origin: 70% 70%;         /* Pivot around the bottom-left palm */
-    display: inline-block;
-}
-  
-@keyframes wave-animation {
-    0% { transform: rotate(  0.0deg) }
-    10% { transform: rotate(-10.0deg) }    /* The following four values can be played with to make the waving more or less extreme */
-    20% { transform: rotate( 12.0deg) }
-    30% { transform: rotate(-10.0deg) }
-    40% { transform: rotate(  9.0deg) }
-    50% { transform: rotate(  0.0deg) }    /* Reset for the last half to pause */
-    100% { transform: rotate(  0.0deg) }
-}
-
-.title {
-    font-family: 'Raleway', sans-serif;
-    font-size: 3em;
-    font-weight: 300;
-
-    width: 95vw;
-    margin-top: 0px;
-    margin-bottom: 10px;
-}
-
-.main-title {
-    font-family: 'Raleway', sans-serif;
-    font-size: 2em;
-    font-weight: 300;
-
-    width: 95vw;
-    margin-top: 0px;
-    margin-bottom: 10px;
-}
-
-.social-icons {
-    width: 95vw;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.email {
-    display: block;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-    font-size: 1.25em;
-    text-decoration: none;
-    color: black;
-}
-
-#icon {
-    height: 40px;
-    width: 40px;
-    margin-right: 25px;
-}
-
-.header-line {
-    width: 95vw;
-    background-image: linear-gradient(90deg, rgba(214,79,152,1) 0%, rgb(80, 48, 155) 50%, rgba(17,209,189,1) 100%);
-    /* background-image: linear-gradient(90deg, rgba(214,79,152,1) 0%, rgb(73, 85, 129) 50%, rgba(17,209,189,1) 100%); */
-    border: 0.5px;
-    border-color: black;
-    border-radius: 50px;
-    height: 3px;
-}
-
-main {
-    display: flex;
-    flex-wrap: wrap;
-
-    width: 95vw;
-}
-
-.background {
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-
-    height: 250px;
-    text-align: center;
-    margin-left: 0px;
-}
-
-.blog {
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-
-    height: 250px;
-    text-align: center;
-    margin-left: 0px;
-}
-
-.blog-p {
-    font-family: 'Raleway', sans-serif;
-    text-align: justify;
-    width: 85vw;
-    font-size: 2em;
-}
-
-.background-p {
-    font-family: 'Raleway', sans-serif;
-    text-align: justify;
-    width: 85vw;
-    font-size: 2em;
-}
-
-.portfolio {
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-
-    height: 250px;
-    text-align: center;
-    margin-left: 0px;
-}
-
-.portfolio-container {
-    font-family: 'Raleway', sans-serif;
-    
-    display: flex;
-    flex-wrap: wrap;
-    width: 85vw;
-    height: 250px;
-    justify-content: center;
-}
-
-.photo-portfolio {
-    width: 35vw;
-    height: 250px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-right: 50px;
-}
-
-.face-portfolio {
-    width: 35vw;
-    height: 250px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-left: 50px;
-}
-
-.portfolio-btn {
-    color: rgb(17,209,189);
-    border-color: rgb(17,209,189);
-    border-radius: 50px;
-    background-color: transparent;
-    height: 50px;
-    margin-top: 25px;
-}
-
-.portfolio-p {
-    width: 40vw;
-    margin-top: 0px;
-}
-
-.skills {
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-
-    height: 250px;
-    text-align: center;
-    margin-left: 0px;
-}
-
-.skills-p {
-    font-family: 'Raleway', sans-serif;
-    text-align: right;
-}
-
-#skills-ul {
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.6em;
-}
-
-.sub-heading{
-    font-family: 'Raleway', sans-serif;
-    width: 100%;
-    font-size: 2em;
-}
-
-@media only screen and (max-width: 600px) {
-
     body, html {
-        /* background-color: rgb(250,250,250); */
+        background-color: rgb(250,250,250);
         overflow: scroll;
-    
+
+        display: flex;
+        flex-wrap: wrap;
+        
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+
+        font-family: 'Nunito', sans-serif;
+
+        scroll-behavior: smooth;
+    }
+
+    nav {
+        width: 10vw;
+        height: 100vh;
+        justify-self: flex-start;
+        border: 0px;
+        padding: 0px;
+
+        font-size: 2em;
+
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    #nav-item:hover {
+        background-color: teal;
+        color: whitesmoke;
+    }
+
+    ul {
+        list-style-type: none;
+        text-align: right;
+    }
+
+    li {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    li:hover {
+        text-decoration: underline;
+        cursor: grab;
+        text-decoration-color: whitesmoke;
+    }
+
+    main {
+        width: 90vw;
+        height: 100vh;
+        justify-self: flex-start;
+        overflow: scroll;
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+
+        scroll-snap-type: y mandatory;
+    }
+
+    .welcome {
+        width: 90vw;
+        height: 100vh;
+        overflow: scroll;
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-    
-        font-family: 'Nunito', sans-serif;
+        align-content: center;
+
+        scroll-snap-align: start;
+
+        border-image: linear-gradient(90deg, rgba(214,79,152,1) 0%, rgb(80, 48, 155) 50%, rgba(17,209,189,1) 100%);
     }
-    
-    /* .dark-mode {
-        background-color: black;
-        background: linear-gradient(160deg, rgba(0,0,0,1) 0%, rgba(20,20,20,1) 100%);
-        color: whitesmoke;
-    } */
-    
-    .welcome {
-        /* font-family: 'Nunito', sans-serif; */
-        font-size: 4em;
-    
-        width: 95vw;
-        margin-bottom: 0px;
+
+    .welcome-title {
+        font-family: 'Raleway', sans-serif;
+        font-size: 3em;
+        font-weight: 300;
+
+        width: 100%;
+        justify-self: center;
+        display: flex;
+        justify-content: center;
     }
-    
+
+    .welcome-title-2 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 2em;
+        font-weight: 300;
+
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .social-icons {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #icon {
+        height: 40px;
+        width: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .blog {
+        width: 90vw;
+        height: 100vh;
+        overflow: scroll;
+        margin: 0px;
+        padding: 100px;
+        border: 0px;
+
+        scroll-snap-align: start;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-content: flex-start;
+    }
+
+    .blog-post{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+
+        box-shadow: 5px 5px 5px 5px rgb(225, 225, 225);
+        border-radius: 7%;
+    }
+
+    #blog-post-icon {
+        font-size: 3em;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about {
+        width: 90vw;
+        height: 100vh;
+        overflow: scroll;
+        margin: 0px;
+        padding: 100px;
+        border: 0px;
+
+        scroll-snap-align: start;
+    }
+
     span.wave {
         animation-name: wave-animation;    /* Refers to the name of your @keyframes element below */
         animation-duration: 2.5s;          /* Change to speed up or slow down */
@@ -249,7 +169,7 @@ main {
         transform-origin: 70% 70%;         /* Pivot around the bottom-left palm */
         display: inline-block;
     }
-      
+    
     @keyframes wave-animation {
         0% { transform: rotate(  0.0deg) }
         10% { transform: rotate(-10.0deg) }    /* The following four values can be played with to make the waving more or less extreme */
@@ -259,153 +179,227 @@ main {
         50% { transform: rotate(  0.0deg) }    /* Reset for the last half to pause */
         100% { transform: rotate(  0.0deg) }
     }
+
+    a:link {
+        color: black;
+        text-decoration: none;
+      }
+      
+      /* visited link */
+      a:visited {
+        color: black;
+        text-decoration: none;
+      }
+}
+
+/**************************************************** 
+******************     BELOW     ********************
+******************      FOR      ********************
+******************     MOBILE    ********************
+****************************************************/
+
+@media only screen and (max-width: 600px) {
+    body, html {
+        background-color: rgb(250,250,250);
+        overflow: scroll;
     
-    .title {
+        display: flex;
+        flex-wrap: wrap;
+        
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+    
+        font-family: 'Nunito', sans-serif;
+
+        scroll-behavior: smooth;
+    }
+
+    nav {
+        width: 100vw;
+        height: 15vh;
+        justify-self: flex-start;
+        border: 0px;
+        padding: 0px;
+
+        font-size: 1.5em;
+
+        display: flex;
+        /* justify-content: center; */
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    #nav-item:hover {
+        background-color: teal;
+        color: whitesmoke;
+    }
+
+    ul {
+        list-style-type: none;
+        text-align: left;
+
+        display: inline-block;
+        padding-left: 0px;
+    }
+
+    li {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 5px;
+        padding-right: 5px;
+
+        display: inline-block;
+    }
+
+    li:hover {
+        text-decoration: underline;
+        cursor: grab;
+        text-decoration-color: whitesmoke;
+    }
+
+    main {
+        width: 100vw;
+        height: 85vh;
+        justify-self: flex-start;
+        overflow: scroll;
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+
+        scroll-snap-type: y mandatory;
+    }
+
+    .welcome {
+        width: 100vw;
+        height: 85vh;
+        overflow: scroll;
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+
+        text-align: center;
+
+        scroll-snap-align: start;
+    }
+
+    .welcome-title {
+        font-family: 'Raleway', sans-serif;
+        font-size: 3em;
+        font-weight: 300;
+
+        width: 100%;
+        justify-self: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+
+    #mobile-title {
+        width: 100vw;
+    }
+
+    .welcome-title-2 {
         font-family: 'Raleway', sans-serif;
         font-size: 2em;
         font-weight: 300;
-    
-        width: 95vw;
-        margin-top: 0px;
-        margin-bottom: 10px;
+
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
-    .main-title {
-        font-family: 'Raleway', sans-serif;
-        font-size: 1.5em;
-        font-weight: 300;
-    
-        width: 95vw;
-        margin-top: 0px;
-        margin-bottom: 10px;
-    }
-    
     .social-icons {
-        width: 95vw;
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+        justify-content: center;
     }
-    
-    .email {
-        display: block;
-        font-family: 'Raleway', sans-serif;
-        font-weight: 300;
-        font-size: 1.25em;
-        text-decoration: none;
-        /* text-align: center; */
-        color: black;
-    }
-    
+
     #icon {
         height: 40px;
         width: 40px;
-        margin-right: 25px;
-    }
-    
-    .header-line {
-        width: 95vw;
-        background-image: linear-gradient(90deg, rgba(214,79,152,1) 0%, rgb(80, 48, 155) 50%, rgba(17,209,189,1) 100%);
-        /* background-image: linear-gradient(90deg, rgba(214,79,152,1) 0%, rgb(73, 85, 129) 50%, rgba(17,209,189,1) 100%); */
-        border: 0.5px;
-        border-color: black;
-        border-radius: 50px;
-        height: 3px;
-    }
-    
-    main {
-        display: flex;
-        flex-wrap: wrap;
-    
-        width: 95vw;
-    }
-    
-    .background {
-        /* writing-mode: vertical-rl;
-        transform: rotate(180deg); */
-    
-        /* height: 250px; */
-        text-align: center;
-        margin-left: 0px;
-        margin-top: 0px;
-    }
-    
-    .background-p {
-        font-family: 'Raleway', sans-serif;
-        /* text-align: justify; */
-        width: 85vw;
-        font-size: 1.25em;
-    }
-    
-    .portfolio {
-        /* writing-mode: vertical-rl;
-        transform: rotate(180deg); */
-    
-        /* height: 250px; */
-        text-align: center;
-        margin-left: 0px;
-    }
-    
-    .portfolio-container {
-        font-family: 'Raleway', sans-serif;
-        
-        display: flex;
-        flex-wrap: wrap;
-        width: 85vw;
-        height: 250px;
-        justify-content: center;
-    }
-    
-    .photo-portfolio {
-        width: 35vw;
-        height: 250px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-right: 50px;
-    }
-    
-    .face-portfolio {
-        width: 35vw;
-        height: 250px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-left: 50px;
-    }
-    
-    .portfolio-btn {
-        color: rgb(17,209,189);
-        border-color: rgb(17,209,189);
-        border-radius: 50px;
-        background-color: transparent;
-        height: 50px;
-        margin-top: 25px;
-    }
-    
-    .portfolio-p {
-        width: 40vw;
-        margin-top: 0px;
-    }
-    
-    .skills {
-        /* writing-mode: vertical-rl;
-        transform: rotate(180deg); */
-    
-        /* height: 250px; */
-        text-align: center;
-        margin-left: 0px;
-        margin-top: 0px;
-    }
-    
-    .skills-p {
-        font-family: 'Raleway', sans-serif;
-        text-align: right;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
-    #skills-ul {
-        font-family: 'Raleway', sans-serif;
-        font-size: 1.2em;
+    .blog {
+        width: 100vw;
+        height: 100vh;
+        overflow: scroll;
+        margin: 0px;
+        padding: 25px;
+        border: 0px;
+
+        scroll-snap-align: start;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-content: flex-start;
     }
 
-  }
+    .blog-post{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+
+        box-shadow: 5px 5px 5px 5px rgb(225, 225, 225);
+        border-radius: 7%;
+    }
+
+    #blog-post-icon {
+        font-size: 3em;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about {
+        width: 100vw;
+        height: 100vh;
+        overflow: scroll;
+        margin: 0px;
+        padding: 25px;
+        border: 0px;
+
+        scroll-snap-align: start;
+    }
+
+    span.wave {
+        animation-name: wave-animation;    /* Refers to the name of your @keyframes element below */
+        animation-duration: 2.5s;          /* Change to speed up or slow down */
+        animation-iteration-count: infinite;    /* Never stop waving :) */
+        transform-origin: 70% 70%;         /* Pivot around the bottom-left palm */
+        display: inline-block;
+    }
+    
+    @keyframes wave-animation {
+        0% { transform: rotate(  0.0deg) }
+        10% { transform: rotate(-10.0deg) }    /* The following four values can be played with to make the waving more or less extreme */
+        20% { transform: rotate( 12.0deg) }
+        30% { transform: rotate(-10.0deg) }
+        40% { transform: rotate(  9.0deg) }
+        50% { transform: rotate(  0.0deg) }    /* Reset for the last half to pause */
+        100% { transform: rotate(  0.0deg) }
+    }
+
+    a:link {
+        color: black;
+        text-decoration: none;
+      }
+      
+      /* visited link */
+      a:visited {
+        color: black;
+        text-decoration: none;
+      }
+}
