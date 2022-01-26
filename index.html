@@ -1,108 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ben Duncan</title>
-</head>
-<body>
-    <header class="top-header">
-        <h1 class="welcome">
-            Hi <span class="wave">👋🏼</span>, I'm Ben Duncan 
-                <!--<img src="./profilephoto.jpeg" style="width: 75px;height: 75px;border: 2px solid black; border-radius: 50%;" />-->
-        </h1>
-        <h1 class="title">
-            Earth Scientist & Photographer
-        </h1>
-        <div class="social-icons">
-            <a href="https://twitter.com/itsbenduncan" target="_blank">
-                <img id="icon" src="./twitter.png" />
-            </a>
-            <a href="https://instagram.com/itsbenduncan" target="_blank">
-                <img id="icon" src="./instagram.png" />
-            </a>
-            <a href="https://linkedin.com/in/itsbenduncan" target="_blank">
-                <img id="icon" src="./linkedin.png" />
-            </a>
-            <a href="https://github.com/itsbenduncan" target="_blank">
-                <img id="icon" src="./github.png" />
-            </a>
-            <a class="email" href="mailto:beduncan@hawaii.edu">
-                <img id="icon" src="./mail.png" />
-            </a>
-        </div>
-        <!-- <button onclick="myFunction()">Toggle dark mode</button> -->
-    </header>
-    <hr class="header-line">
-    <main>
-        <!--
-            <h1 class="background">BLOG</h1>
-                <p class="blog-p">
-                    This is a test
-                </p>
-        <hr class="header-line">
-            -->
-
-
-
-        <!-- <h1 class="background">BACKGROUND</h1>
-        <p class="background-p">
-            Growing up in Hawaii, I have a deep passion for the ocean and enviroment. Currently pursuing a Bachelor's of Science 
-            in Earth Science from the University of Hawaii at Manoa, 
-            I am dynamic and efficient, I bring a breadth of multi-disciplinary knowledge themed in technology and earth science, 
-            bringing excellent problem-solving and team-orientated skills.
-            Dynamic and efficient, I bring a breadth of multi-disciplinary knowledge themed in technology, creating excellent problemsolving
-            and team-orientated skills. I am a self-driven programmer with a passion for the environment. Currently seeking a
-            Bachelor’s degree in Earth Science along with a minor in computer science, I look forward to merging these disciplines into
-            an enriching scientific programming experience.
-        </p>
-        <hr class="header-line">
-            <h1 class="skills">IMAGERY</h1>
-                <a href="./blog/post1.html">Click here for blog post 1</a>
-        <hr class="header-line"> -->
-        <!-- <h1 class="skills">SKILLS</h1>
-            <p class="skills-p">
-                <ul id="skills-ul">
-                    <li>Python, HTML 5, CSS 3, Javascript, React, PostgresQL, Matlab</li>
-                    <li>Teamwork, communication, and remote work</li>
-                    <li>Time & project management</li>
-                    <li>Research, scientific writing, and presentation</li>
-                    <li>Photography, filmmaking, and live production</li>
-                    <!-- <li>Customer orientated sales, technical training, & customer education</li> -->
-                    <!-- <li>Proficient in Japanese</li>  -->
-                    <!--<li>Traveling, surfing, and outdoor work</li> -->
-                    <!-- <li>Expert in Final Cut Pro X, Apple products & software, Adobe software, & more</li> --> <!--
-                </ul>
-            </p>
-        <hr class="header-line">
-        <h1 class="skills">EXPERIENCE</h1>
-            <p class="skills-p">
-                <div class="sub-heading">Current Employement:</div>
-                <ul id="skills-ul">
-                    <li>Earth Scientist at Shoreline Science & Engineering</li>
-                    <li>Earth Scientist at Shoreline Conservation Initiative</li>
-                    <br></br>
-                    <li>Co-author: Ocracoke Project</li>
-                    <li>Co-research, drone pilot, co-author: Shark's Cove</li>
-                </ul>
-            </p> -->
-    </main>
-    <!-- <script>
-        function myFunction() {
-           var element = document.body;
-        //    var email = document.getElementById("email");
-
-           element.classList.toggle("dark-mode");
-        //    element.classList.toggle("email-dark");
-        //    element.classList.toggle("email");
-
-        //    if (email.style.color === "black") {
-        //         email.style.color = "whitesmoke";
-        //     } else {
-        //         email.style.color = "black";
-        //     }
-        }
-    </script> -->
-</body>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ben Duncan</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><span id="nav-item"><a href="#welcome">Home</a></span></li>
+                <li><span id="nav-item"><a href="#blog">Blog</a></span></li>
+                <li><span id="nav-item"><a href="#about">About</a></span></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="welcome" id="welcome">
+                <h1 class="welcome-title">
+                    <span id="mobile-title">Hi <span class="wave">👋🏼</span>,</span>I'm Ben Duncan
+                </h1>
+                <h1 class="welcome-title-2">
+                    Earth Scientist & Photographer
+                </h1>
+                <div class="social-icons">
+                    <a href="https://twitter.com/itsbenduncan" target="_blank">
+                        <img id="icon" src="./twitter.png" />
+                    </a>
+                    <a href="https://instagram.com/itsbenduncan" target="_blank">
+                        <img id="icon" src="./instagram.png" />
+                    </a>
+                    <a href="https://linkedin.com/in/itsbenduncan" target="_blank">
+                        <img id="icon" src="./linkedin.png" />
+                    </a>
+                    <a href="https://github.com/itsbenduncan" target="_blank">
+                        <img id="icon" src="./github.png" />
+                    </a>
+                    <a class="email" href="mailto:beduncan@hawaii.edu">
+                        <img id="icon" src="./mail.png" />
+                    </a>
+                </div>
+            </div>
+            <div class="blog" id="blog">
+                <a href="benduncan.info/blog" target="_blank">
+                    <div class="blog-post"><span id="blog-post-icon">⛴</span>R/V Kilo Moana</div>
+                </a>
+            </div>
+            <div class="about" id="about">
+                COMING SOON!
+            </div>
+        </main>
+    </body>
 </html>
